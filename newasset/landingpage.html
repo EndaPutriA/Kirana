@@ -4,17 +4,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Kirana - Coming Soon!</title>
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
-    <div class="container-fluid" style="background-color:#f4aab0">
-      <div class="container" style="padding: 20px">
+    <div class="container-fluid" style="background-color:#f4aab0;v-height: 100vh">
+      <div class="container" style="padding: 20px;height: 100vh">
         <div class="text-center">
-            <img src="logo kiran putih.png" class="rounded" alt="Responsive image" style="width: 170px;height: 200px;margin-top: 90px;">
+            <img src="logokiranaputih.png" class="rounded" alt="Logo Kirana" style="width: 170px;height: 200px;margin-top: 90px;">
         </div>
 
         <div class="text-center">
@@ -25,11 +26,29 @@
 
         <div class="container">
         <div class="row input-group mb-2" style="margin:auto;max-width:400px">
-            <input type="text" class="form-control shadow p-3 bg-white rounded" placeholder="Email address" aria-label="Email address" aria-describedby="button-addon2" style="font-style: italic;font-family: calibri">
+            <input type="email" class="form-control shadow p-3 bg-white rounded" placeholder="Email address" aria-label="Email address" aria-describedby="button-addon2" style="font-style: italic;font-family: calibri">
             <div class="input-group-append">
-              <button class="btn shadow" type="button" style="background-color: #f4aab0">
+              <button class="btn shadow" type="button" data-toggle="modal" data-target="#popup" style="background-color: #f4aab0">
                  <i class="fa fa-chevron-right text-white" style="font-size: 20px"></i>
               </button>
+              <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Terimakasih</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+              </div>
+              <div class="modal-body">
+                <p style="font-family: calibri">Nantikan Launching Perdana Kami Melalui Email Anda :)</p>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
         </div>
         </div>
